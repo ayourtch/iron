@@ -23,8 +23,8 @@ log = "0.4"
 mime = "0.3"
 mime_guess = "2.0"
 modifier = "0.1"
-plugin = "0.2"
-typemap = "0.3"
+plugin = { git = "https://github.com/ayourtch/rust-plugin" }
+typemap = { git = "https://github.com/ayourtch/rust-typemap" }
 url = "1.7"
 
 [dev-dependencies]
